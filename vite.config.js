@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/Random-jokes-generator/",
+  base: "/JokesGenerator/",
   root: "./",
   build: {
     outDir: "dist",
