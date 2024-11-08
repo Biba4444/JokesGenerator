@@ -1,0 +1,55 @@
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  li {
+    list-style: none;
+    color: #fafafa;
+  }
+}
+
+.container1 {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+
+#jokeBlocks1,
+#jokeBlocks2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.customButton {
+  width: 100px;
+  height: 40px;
+  background-color: #ff9f9f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.customButton:hover {
+  background-color: orangered;
+}
